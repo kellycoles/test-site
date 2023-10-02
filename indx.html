@@ -10,17 +10,6 @@
 
 <body>
    
-    <script>
-        function light(sw) {
-            var pic;
-            if (sw == 0) {
-                pic = "Images/bulbOff.jpg"
-            } else {
-                pic = "Images/bulbOn.jpg"
-            }
-            document.getElementById('myImage').src = pic;
-        }
-    </script>
 
     <img id="myImage" src="Images/bulbOff.jpg" width="100" height="180">
 
@@ -28,7 +17,7 @@
         <button type="button" onclick="light(1)">Light On</button>
         <button type="button" onclick="light(0)">Light Off</button>
     </p>
-    <script src="Test Site\script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
